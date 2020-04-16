@@ -21,6 +21,6 @@ Imports:
     stats,
     yesno
 Remotes: 
-    dpc10ster/RJafroc
+    dpc10ster/RJafroc@662c4bf3bcd725d8fa148a3e7db69168294ae57e
 Depends: 
     R (>= 2.10)
