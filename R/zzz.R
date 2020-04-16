@@ -2,3 +2,4 @@
   check_rjafroc()
   check_sha()
 }
+

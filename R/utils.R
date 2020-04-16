@@ -5,7 +5,7 @@ check_rjafroc <- function() {
   if(isFALSE(chk)) {
     res <- yesno("The RJafroc package is not installed. Would you like to install it now?")
     if(res) {
-      install_github("dpc10ster/RJafroc@78210b8c7f06526ce64ddf78006339f723bb63f6")
+      install_github("dpc10ster/RJafroc@662c4bf3bcd725d8fa148a3e7db69168294ae57e")
     }
   }
 }
@@ -14,7 +14,7 @@ same_sha <- function(local_sha) {
   if(is.null(local_sha)) {
     local_sha <- 0
   }
-  local_sha == "78210b8c7f06526ce64ddf78006339f723bb63f6"
+  local_sha == "662c4bf3bcd725d8fa148a3e7db69168294ae57e"
 }
 
 check_sha <- function() {
@@ -25,9 +25,8 @@ check_sha <- function() {
                     " is not guaranteed to work with the current version of",
                     " gapr. Would you like to install a version that is",
                     "certain to work?"))) {
-      install_github("dpc10ster/RJafroc@78210b8c7f06526ce64ddf78006339f723bb63f6")
+      install_github("dpc10ster/RJafroc@662c4bf3bcd725d8fa148a3e7db69168294ae57e")
       }
   }
 }
-check_sha()
 
