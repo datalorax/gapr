@@ -17,6 +17,9 @@
 #' @importFrom RJafroc Df2RJafrocDataset FitBinormalRoc
 #' @importFrom purrr safely
 #' @importFrom stats qnorm
+#' @importFrom remotes install_github
+#' @importFrom utils installed.packages packageDescription
+#' @importFrom yesno yesno
 
 "_PACKAGE"
 

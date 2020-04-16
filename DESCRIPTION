@@ -15,8 +15,12 @@ LazyData: true
 RoxygenNote: 7.0.2
 Imports: 
     purrr,
-    RJafroc (>= 1.3.2.9000)
+    RJafroc (>= 1.3.2.9000),
+    remotes,
+    utils,
+    stats,
+    yesno
 Remotes: 
-    dpc10ster/RJafroc@78210b8c7f06526ce64ddf78006339f723bb63f6
+    dpc10ster/RJafroc
 Depends: 
     R (>= 2.10)
